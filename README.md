@@ -3,7 +3,9 @@
 ## TODO
 
 - research current evolution based algorithms
-- define the environment
+- define sterile environment and define interaction framework (how information is provided to detection model)
+- extract the logic of evolutionary process, to instance the individuals and put them in the environment
+
 
 ## The idea
 
@@ -87,9 +89,10 @@ ____________________               _____________________________
 ```
 
 
-In this architecture, the "detection" model plays role of detection mechanism for the kind of interactions it has.
-It contains a tree knowledge and if there's something new, it adjusts the "brain" model.
+In this architecture, the **detection model** plays role of detection mechanism for the kind of interactions it has.
+It contains a tree knowledge and if there's something new, it adjusts the **decision/brain model**.
 It differentiates from what is known and defines parameters for what is unknown.
+In some sense **detection model** IS a dataset with interface for input to **brain model**, while the latter is acting and backpropagating, what it does not do is to adjust - the adjustment is out of individual model's control -> the evolution is the training.
 
 
 
