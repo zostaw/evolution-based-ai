@@ -34,7 +34,7 @@ during training/re-training/finetuning
 and results in a stable NN
 ```
 
-### New architecture
+### New architecture - decision model
 
 I propose that to achieve artificial intelligence, we need to move focus from a static NN trained in iterations on changing datasets to one that emphasizes input as a crucial element in operation of the NN and training faculty.
 
@@ -65,7 +65,7 @@ This in result influences NN architecture, so the Entity becomes more "fluid".
 What changes is architecture and not the weights only, the whole model evolves.
 
 
-### Autonomy
+### Autonomy - detection model
 
 To ensure the model can autonomically redefine its architecture, we need to ensure 2 things:
 - that it doesn't train (in an original sense of the word), but focuses specific architectural change (design change, rather than weights change, but maybe both)
