@@ -55,6 +55,7 @@ ______________________________________________________________
 
 ```
 
+Input technically is part of NN in above schema, but I distincted it for the sake of clarity, to emphasize the importance of the fact that input itself is a high-order-tensor that will be changing.
 In terms of architecture the change is we remove static dataset as a source of training and instead unlock backpropagation for input data.
 We replace emphasis of gathering **good datasets** with building **good set of input parameters**.
 When I refer to input parameters I refer to types of information that is provided in input.
